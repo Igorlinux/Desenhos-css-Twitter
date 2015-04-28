@@ -12,14 +12,14 @@ div {
 
 .blue {
 	position: absolute;
-	/*background-color: rgb(100, 168, 242);*/
-	border: 1px solid;
+	background-color: rgb(100, 168, 242);
+	/*border: 1px solid;*/
 }
 
 .white {
 	position: absolute;
-	/*background-color: rgb(255, 255, 255);*/
-	border: 1px solid #F00;
+	background-color: rgb(255, 255, 255);
+	/*border: 1px solid #F00;*/
 }
 
 .head {
@@ -32,31 +32,102 @@ div {
 	z-index: 11;
 }
 
+.bico-bottom-container {
+	position: absolute;
+	top: -42px;
+	left: -135px;
+}
+
 .bico-bottom {
 	left: 200px;
 	top: 40px;
 
-	width: 80px;
+	width: 120px;
 	height: 80px;
 	border-radius: 40px;
+	z-index: 5;
+}
+
+.anti-bico-bottom1 {
+	left: 220px;
+	top: -15px;
+
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	z-index: 6;
+}
+
+.anti-bico-bottom2 {
+	left: 170px;
+	top: 45px;
+
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	z-index: 1;
+}
+
+
+
+.bico-top-container2 {
+	position: absolute;
+	/*top: -33px;
+	left: -128px;*/
+
+	left: -110px;
+	top: -83px;
+
+	transform: rotate(10deg);
+
+}
+
+.bico-top {
+	left: 200px;
+	top: 40px;
+
+	width: 120px;
+	height: 80px;
+	border-radius: 40px;
+	z-index: 2;
+}
+
+.anti-bico-top1 {
+	left: 220px;
+	top: -15px;
+
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	z-index: 3;
+}
+
+.anti-bico-top2 {
+	left: 170px;
+	top: 45px;
+
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	z-index: 3;
 }
 
 .body {
 	width: 170px;
 	height: 170px;
 	border-radius: 85px;
-	z-index: 1;
+	z-index: 4;
 }
 
 .anti-body {
-	top: -5px;
-	left: -55px;
+	top: -15px;
+	left: -50px;
 
 
 	width: 170px;
 	height: 170px;
 	border-radius: 85px;
-	z-index: 2;
+	z-index: 5;
 }
 
 .anti-body2 {
